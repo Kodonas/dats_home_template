@@ -334,6 +334,13 @@ const MintDapp = () => {
           {/* </div> */}
         </div>
       </div>
+
+      <div className="flex justify-center">
+        <div className="grid-cols-3 gap-5 max-auto px-3">
+          {/* migration iframe container */}
+          <iframe />
+        </div>
+      </div>
     </Section>
   );
 };
